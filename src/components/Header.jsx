@@ -1,9 +1,9 @@
 export default function Header({ balance }) {
   return (
     <>
-      <div className="navbar bg-base-100 container mx-auto">
-        <div className="flex-1">
-          <img src="../../public/logo.png" alt="" />
+      <div className="navbar bg-base-100 sticky top-0 bg-opacity-70 backdrop-blur-lg z-50 px-40">
+        <div className="flex-1 container mx-auto">
+          <img src="./logo.png" alt="" />
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 text-xl">
@@ -21,7 +21,7 @@ export default function Header({ balance }) {
             </li>
             <button className="btn bg-base-100 border text-black hover:bg-base-100">
               {balance.toLocaleString()} Coin
-              <img src="../../public/currency.png" alt="" />
+              <img src="./currency.png" alt="" />
             </button>
           </ul>
         </div>

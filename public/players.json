@@ -1,0 +1,154 @@
+[
+  {
+    "picture": "https://example.com/pictures/shakib_al_hasan.jpg",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "position": "All-rounder",
+    "price": 1500000,
+    "handed": "Left-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/tamim_iqbal.jpg",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "position": "Batsman",
+    "price": 1200000,
+    "handed": "Left-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/soumya_sarkar.jpg",
+    "name": "Soumya Sarkar",
+    "country": "Bangladesh",
+    "position": "Batsman",
+    "price": 800000,
+    "handed": "Left-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/mahmudullah.jpg",
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "position": "All-rounder",
+    "price": 900000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/ mushfiqur_rahim.jpg",
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "position": "Wicket-keeper",
+    "price": 1000000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/shoriful_islam.jpg",
+    "name": "Shoriful Islam",
+    "country": "Bangladesh",
+    "position": "Bowler",
+    "price": 700000,
+    "handed": "Left-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/nirob_islam.jpg",
+    "name": "Nirob Islam",
+    "country": "Bangladesh",
+    "position": "Bowler",
+    "price": 600000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/rubel_hossain.jpg",
+    "name": "Rubel Hossain",
+    "country": "Bangladesh",
+    "position": "Bowler",
+    "price": 700000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/afif_hossain.jpg",
+    "name": "Afif Hossain",
+    "country": "Bangladesh",
+    "position": "All-rounder",
+    "price": 750000,
+    "handed": "Left-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/hasan_mahmud.jpg",
+    "name": "Hasan Mahmud",
+    "country": "Bangladesh",
+    "position": "Bowler",
+    "price": 600000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/sabbir_rahman.jpg",
+    "name": "Sabbir Rahman",
+    "country": "Bangladesh",
+    "position": "Batsman",
+    "price": 800000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/sikandar_raza.jpg",
+    "name": "Sikandar Raza",
+    "country": "Zimbabwe",
+    "position": "All-rounder",
+    "price": 1200000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/jos_butler.jpg",
+    "name": "Jos Buttler",
+    "country": "England",
+    "position": "Wicket-keeper",
+    "price": 2000000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/ben_stokes.jpg",
+    "name": "Ben Stokes",
+    "country": "England",
+    "position": "All-rounder",
+    "price": 1800000,
+    "handed": "Left-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/virat_kohli.jpg",
+    "name": "Virat Kohli",
+    "country": "India",
+    "position": "Batsman",
+    "price": 2500000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/steve_smith.jpg",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "position": "Batsman",
+    "price": 2200000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/rohit_sharma.jpg",
+    "name": "Rohit Sharma",
+    "country": "India",
+    "position": "Batsman",
+    "price": 2300000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/bumrah.jpg",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "position": "Bowler",
+    "price": 2000000,
+    "handed": "Right-handed"
+  },
+  {
+    "picture": "https://example.com/pictures/trent_boult.jpg",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "position": "Bowler",
+    "price": 1700000,
+    "handed": "Left-handed"
+  }
+]

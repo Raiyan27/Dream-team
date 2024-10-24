@@ -2,13 +2,13 @@ export default function Banner({ creditHandle }) {
   return (
     <>
       <div
-        className="hero my-3 py-10 bg-cover bg-center flex items-center justify-center bg-black container mx-auto rounded-3xl"
-        style={{ backgroundImage: "url('../../public/bg-shadow.png')" }}
+        className="hero my-8 py-10 bg-cover bg-center flex items-center justify-center bg-black container mx-auto rounded-3xl"
+        style={{ backgroundImage: "url('./bg-shadow.png')" }}
       >
         <div className="hero-content text-center">
           <div className="">
             <img
-              src="../../public/banner-main.png"
+              src="./banner-main.png"
               alt="Cricket Banner"
               className="mx-auto mb-6"
             />
