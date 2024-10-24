@@ -1,14 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
 
-function App() {
+const App = () => {
+  const [balance, setBalance] = useState(0);
+  const handleClaimCredit = () => {
+    setBalance(balance + 600000);
+  };
   return (
-    <>
-      <h1 className="">hello</h1>
-    </>
+    <div className="bg-base-100 min-h-screen">
+      <Header balance={balance} />
+      <Banner creditHandle={handleClaimCredit} />
+    </div>
   );
-}
+};
 
 export default App;
