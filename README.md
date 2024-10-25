@@ -17,3 +17,11 @@ Dream 11 Player Selection is a single-page application that allows users to crea
 - **React**: UI components and state management.
 - **React Toastify**: Toast notifications for user feedback.
 - **Tailwind CSS**: Responsive and styling.
+
+## Surge Link
+
+https://dream-6.surge.sh/
+
+## Netlify Link
+
+https://dream-6.netlify.app/

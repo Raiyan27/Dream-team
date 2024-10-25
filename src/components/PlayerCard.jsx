@@ -23,7 +23,7 @@ export default function PlayerCard({ player, onChoose }) {
 
           <h1>{handed}</h1>
           <div className="flex justify-between items-center">
-            <h1>${price}</h1>
+            <h1>Price: ${price}</h1>
             <button
               className="btn bg-white hover:bg-yellow-200"
               onClick={onChoose}
