@@ -31,9 +31,7 @@ export default function PlayerContainer({ balance, setBalance }) {
     if (selectedPlayers.length >= 6) {
       toast.error("You can only select up to 6 players!");
       return;
-    }
-
-    if (balance >= player.price) {
+    } else if (balance >= player.price) {
       if (!selectedPlayers.some((p) => p.id === player.id)) {
         setSelectedPlayers([...selectedPlayers, player]);
         setBalance(balance - player.price);
@@ -71,7 +69,7 @@ export default function PlayerContainer({ balance, setBalance }) {
           </h1>
         )}
 
-        <div>
+        <div className="sticky top-0">
           <button
             ref={availableButtonRef}
             className="p-3 bg-white rounded-l-lg text-black hover:bg-yellow-500 focus:bg-yellow-400"
@@ -119,7 +117,7 @@ export default function PlayerContainer({ balance, setBalance }) {
                   </div>
                 </div>
                 <button
-                  className="text-red-400 hover:text-red-800"
+                  className="text-red-400"
                   onClick={() => handleRemovePlayer(player.id)}
                 >
                   <img src="./delete.png" alt="" />
@@ -127,10 +125,17 @@ export default function PlayerContainer({ balance, setBalance }) {
               </div>
             ))}
           </div>
-          {selectedPlayers.length < 6 && (
+          {selectedPlayers.length < 6 ? (
             <button
               className="btn bg-yellow-400 text-black hover:bg-yellow-500 px-6 py-3 rounded-lg mt-4"
               onClick={showAvailable}
+            >
+              Add More Players
+            </button>
+          ) : (
+            <button
+              className="btn bg-yellow-400 text-black px-6 py-3 rounded-lg mt-4"
+              disabled
             >
               Add More Players
             </button>

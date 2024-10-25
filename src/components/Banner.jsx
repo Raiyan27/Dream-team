@@ -16,12 +16,14 @@ export default function Banner({ creditHandle }) {
               Assemble Your Ultimate Dream 11 Cricket Team
             </h1>
             <p className="text-white mb-6">Beyond Boundaries Beyond Limits</p>
-            <button
-              onClick={creditHandle}
-              className="btn bg-yellow-400 text-black hover:bg-yellow-500 px-6 py-3 rounded-lg"
-            >
-              Claim Free Credit
-            </button>
+            <div className="py-5 px-2 border inline rounded-lg border-yellow-400">
+              <button
+                onClick={creditHandle}
+                className="btn bg-yellow-400 text-black hover:bg-yellow-500 px-6 py-3 rounded-lg"
+              >
+                Claim Free Credit
+              </button>
+            </div>
           </div>
         </div>
       </div>

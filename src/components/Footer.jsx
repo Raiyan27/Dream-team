@@ -45,6 +45,14 @@ export default function Footer() {
             </form>
           </div>
         </footer>
+        <footer className="footer footer-center bg-base-300 text-base-content p-4">
+          <aside>
+            <p>
+              Copyright © {new Date().getFullYear()} - All right reserved by
+              BPL Dream 6
+            </p>
+          </aside>
+        </footer>
       </div>
     </>
   );
