@@ -11,7 +11,10 @@ const App = () => {
 
   const handleClaimCredit = () => {
     setBalance(balance + 600000);
-    toast.success(`Credit Added Succesfully!`);
+    toast.success("Credit claimed successfully", {
+      position: "top-center",
+      autoClose: 3000,
+    });
   };
 
   return (

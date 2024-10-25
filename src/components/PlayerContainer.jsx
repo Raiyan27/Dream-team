@@ -56,14 +56,12 @@ export default function PlayerContainer({ balance, setBalance }) {
       (player) => player.id === playerId
     );
     if (removedPlayer) {
-      setBalance(balance + removedPlayer.price);
       toast.info(`${removedPlayer.name} has been removed.`);
     }
   };
 
   return (
     <>
-      <ToastContainer />
       <div className="flex justify-between container mx-auto items-center my-4">
         {!selected ? (
           <h1 className="text-3xl font-bold text-black">Available Players</h1>
@@ -117,13 +115,14 @@ export default function PlayerContainer({ balance, setBalance }) {
                   <div>
                     <h2 className="font-bold text-lg">{player.name}</h2>
                     <p className="text-sm text-gray-500">{player.position}</p>
+                    <p className="text-sm text-gray-500">$ {player.price}</p>
                   </div>
                 </div>
                 <button
-                  className="text-red-600 hover:text-red-800"
+                  className="text-red-400 hover:text-red-800"
                   onClick={() => handleRemovePlayer(player.id)}
                 >
-                  🗑️
+                  <img src="./delete.png" alt="" />
                 </button>
               </div>
             ))}
