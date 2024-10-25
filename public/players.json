@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "picture": "https://i.ibb.co.com/VV0GhD9/new-zealand-cricket-star-kane-williamson-3bptnocb06mr3lz4.jpg",
     "name": "Kane Williamson",
     "country": "New Zealand",
@@ -8,6 +9,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 2,
     "picture": "https://i.ibb.co.com/fSrYmPp/tamim.webp",
     "name": "Tamim Iqbal",
     "country": "Bangladesh",
@@ -16,6 +18,7 @@
     "handed": "Left-handed"
   },
   {
+    "id": 3,
     "picture": "https://i.ibb.co.com/wr1Qp94/soumya.webp",
     "name": "Soumya Sarkar",
     "country": "Bangladesh",
@@ -24,6 +27,7 @@
     "handed": "Left-handed"
   },
   {
+    "id": 4,
     "picture": "https://i.ibb.co.com/2kjVGYM/Mahmudullah-Riyad.jpg",
     "name": "Mahmudullah Riyad",
     "country": "Bangladesh",
@@ -32,6 +36,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 5,
     "picture": "https://i.ibb.co.com/XWTbGKM/mushfiqur-rahim.jpg",
     "name": "Mushfiqur Rahim",
     "country": "Bangladesh",
@@ -40,6 +45,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 6,
     "picture": "https://i.ibb.co.com/9cb3054/sakib.jpg",
     "name": "Shakib Al Hasan",
     "country": "Bangladesh",
@@ -48,6 +54,7 @@
     "handed": "Left-handed"
   },
   {
+    "id": 7,
     "picture": "https://i.ibb.co.com/GpZBYCV/shoriful.webp",
     "name": "Shoriful Islam",
     "country": "Bangladesh",
@@ -56,6 +63,7 @@
     "handed": "Left-handed"
   },
   {
+    "id": 8,
     "picture": "https://i.ibb.co.com/pQVcwD5/rubel.jpg",
     "name": "Rubel Hossain",
     "country": "Bangladesh",
@@ -64,6 +72,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 9,
     "picture": "https://i.ibb.co.com/kgwRr0t/afif.webp",
     "name": "Afif Hossain",
     "country": "Bangladesh",
@@ -72,6 +81,7 @@
     "handed": "Left-handed"
   },
   {
+    "id": 10,
     "picture": "https://i.ibb.co.com/w6mPL7G/hasan.webp",
     "name": "Hasan Mahmud",
     "country": "Bangladesh",
@@ -80,6 +90,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 11,
     "picture": "https://i.ibb.co.com/vXF7cpG/Sabbir-Rahman-dedicated-his-first-century-to-his-p.jpg",
     "name": "Sabbir Rahman",
     "country": "Bangladesh",
@@ -88,6 +99,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 12,
     "picture": "https://i.ibb.co.com/7kZxpXB/321757947-2235011620041377-7229348973788566731-n-jpg-nc-cat-103-ccb-1-7-nc-sid-596eb7-nc-ohc-NGI3y1g.jpg",
     "name": "Sikandar Raza",
     "country": "Zimbabwe",
@@ -96,6 +108,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 13,
     "picture": "https://i.ibb.co.com/dsvHKgm/jos-buttler-k0lhltdry1vg2rls.jpg",
     "name": "Jos Buttler",
     "country": "England",
@@ -104,6 +117,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 14,
     "picture": "https://i.ibb.co.com/MCBchSM/Untitled-design-2023-09-08-T190723-693.png",
     "name": "Ben Stokes",
     "country": "England",
@@ -112,6 +126,7 @@
     "handed": "Left-handed"
   },
   {
+    "id": 15,
     "picture": "https://i.ibb.co.com/28kLp1C/handsome-virat-kohli-4j01eqnrivcntlqv.jpg",
     "name": "Virat Kohli",
     "country": "India",
@@ -120,6 +135,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 16,
     "picture": "https://i.ibb.co.com/vzsWpf7/3902bcf320fd7da00187599702f3e0b9.jpg",
     "name": "Steve Smith",
     "country": "Australia",
@@ -128,6 +144,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 17,
     "picture": "https://i.ibb.co.com/4Tqb8mn/Whats-App-Image-2023-10-12-at-09-26-50.jpg",
     "name": "Rohit Sharma",
     "country": "India",
@@ -136,6 +153,7 @@
     "handed": "Right-handed"
   },
   {
+    "id": 18,
     "picture": "https://i.ibb.co.com/FqbpDvD/l-24381-073303-updates.jpg",
     "name": "Trent Boult",
     "country": "New Zealand",

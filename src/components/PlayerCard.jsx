@@ -1,4 +1,4 @@
-export default function PlayerCard({ player }) {
+export default function PlayerCard({ player, onChoose }) {
   return (
     <>
       <div className="p-4 border rounded-xl mx-auto">
@@ -25,7 +25,10 @@ export default function PlayerCard({ player }) {
           </div>
           <div className="flex justify-between">
             <h1>${player.price}</h1>
-            <button className="btn bg-white hover:bg-slate-400">
+            <button
+              className="btn bg-white hover:bg-slate-400"
+              onClick={onChoose}
+            >
               Choose Player
             </button>
           </div>
